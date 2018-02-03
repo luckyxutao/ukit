@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --require babel-core/register --recursive --timeout 0",
-    "debug": "node --nolazy --inspect --debug-brk=9229 ./bin/ukit -h"
+    "debug": "node --nolazy --inspect --debug-brk=9229 ./bin/ukit server -v"
   },
   "repository": {
     "type": "git",
@@ -35,6 +35,7 @@
     "colors": "^1.1.2",
     "connect": "^3.6.5",
     "globby": "^7.1.1",
+    "optimist": "^0.6.1",
     "yargs": "^11.0.0"
   }
 }

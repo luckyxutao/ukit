@@ -22,7 +22,7 @@ global.logWarn = function() {
 global.logInfo = function() {
     info(('[Info] ').blue + Array.prototype.join.call(arguments, ' '));
 };
-
+global.optimist = require('optimist');
 global.globby = require('globby');
 global.sysPath = require('path');
 global.leftPad = require('./utils/str').leftPad;

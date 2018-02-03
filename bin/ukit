@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-const cli = require('../dist/cli');
-var cmd = process.argv[2];
+var cli = require('../dist/cli'),
+    cmd = process.argv[2];
 cli.run(cmd);
